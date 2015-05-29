@@ -1,8 +1,8 @@
 'use strict';
 
 var should = require('chai').should();
-var P2P = require('../../../');
-var Messages = P2P.Messages;
+var Protocol = require('../../../');
+var Messages = Protocol.Messages;
 var sinon = require('sinon');
 var bitcore = require('bitcore');
 

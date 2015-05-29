@@ -4,8 +4,8 @@ var chai = require('chai');
 var should = chai.should();
 
 var Buffers = require('buffers');
-var P2P = require('../../');
-var Messages = P2P.Messages;
+var Protocol = require('../../');
+var Messages = Protocol.Messages;
 var messages = new Messages();
 var bitcore = require('bitcore');
 var Data = require('../data/messages'); //todo merge with commandData

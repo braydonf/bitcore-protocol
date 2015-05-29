@@ -1,8 +1,8 @@
 'use strict';
 
 var should = require('chai').should();
-var P2P = require('../../');
-var builder = P2P.Messages.builder;
+var Protocol = require('../../');
+var builder = Protocol.Messages.builder;
 var bitcore = require('bitcore');
 
 describe('Messages Builder', function() {

@@ -5,8 +5,8 @@
 var should = require('chai').should();
 
 var bitcore = require('bitcore');
-var P2P = require('../');
-var Inventory = P2P.Inventory;
+var Protocol= require('../');
+var Inventory = Protocol.Inventory;
 var BufferUtils = bitcore.util.buffer;
 var BufferWriter = bitcore.encoding.BufferWriter;
 var BufferReader = bitcore.encoding.BufferReader;

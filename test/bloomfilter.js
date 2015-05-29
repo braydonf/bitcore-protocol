@@ -6,8 +6,8 @@ var should = chai.should();
 var assert = require('assert');
 var bitcore = require('bitcore');
 var Data = require('./data/messages');
-var P2P = require('../');
-var BloomFilter = P2P.BloomFilter;
+var Protocol = require('../');
+var BloomFilter = Protocol.BloomFilter;
 
 function getPayloadBuffer(messageBuffer) {
   return new Buffer(messageBuffer.slice(48), 'hex');

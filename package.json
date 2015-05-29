@@ -1,12 +1,12 @@
 {
-  "name": "bitcore-p2p",
-  "version": "0.14.0",
-  "description": "Interface to the bitcoin P2P network for bitcore",
+  "name": "bitcore-protocol",
+  "version": "0.15.0",
+  "description": "Bitcoin protocol messages for bitcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
-    "test": "gulp test:node",
+    "test": "gulp test",
     "coverage": "gulp coverage",
     "build": "gulp"
   },
@@ -49,7 +49,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-p2p.git"
+    "url": "https://github.com/bitpay/bitcore-protocol.git"
   },
   "dependencies": {
     "bitcore": "^0.12.0",
