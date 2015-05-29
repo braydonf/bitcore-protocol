@@ -1,0 +1,29 @@
+{
+  "name": "bitcore-protocol",
+  "main": "./bitcore-protocol.min.js",
+  "version": "0.15.0",
+  "homepage": "https://github.com/bitpay/bitcore-protocol",
+  "authors": [
+    "BitPay"
+  ],
+  "description": "Bitcoin Protocol Messages for Bitcore",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bitcoin",
+    "bitcore",
+    "btc",
+    "satoshi",
+    "protocol",
+    "messages"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
