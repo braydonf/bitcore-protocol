@@ -3,6 +3,6 @@
 var gulp = require('gulp');
 var bitcoreTasks = require('bitcore-build');
 
-bitcoreTasks('p2p');
+bitcoreTasks('protocol');
 
 gulp.task('default', ['lint', 'coverage']);
